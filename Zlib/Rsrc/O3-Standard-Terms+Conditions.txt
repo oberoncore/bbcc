@@ -1,0 +1,108 @@
+Standard Terms and Conditions			utf-8
+=======================
+
+of O³-Software GmbH & Co. KG, Höhndorfer Tor 2b, 24217 Schönberg
+	– furthermore: “O³” –
+
+last updated: September 2007
+
+
+(1)	General
+
+a) O³ exclusively renders services, that are not directed to consumers but only to those customers, that perform their services commercially / professionally or for their company.
+
+b) All offers and services of O³ stand under the reserve clause of the technical and operational practicability.
+
+c) In as far as O³ renders free services and performances, these can be discontinued at anytime and without prior announcements. No claims for reduction, reimbursement, or damages will arise from this circumstance.
+
+
+
+(2)	Jurisdiction / Effectiveness of Alterations & Divergent Clauses / Feasibility
+
+a) Exclusively these standard terms and conditions are applicable to all services that are rendered by O³ in their current wording.
+
+b) Complementary to these standard terms and conditions, and if applicable, the software contract (license agreement) completed between O³ and the customer will always be valid. As far as regulations in the contract differ from the standard terms and conditions, these regulations of the software contract will be considered as the more particular regulation.
+
+c) Alterations of the standard terms and conditions as well as in the scope of service will be communicated beforehand and in writing to the customer. This notice can take place in text-form. The alterations are regarded as authorized when the customer does not disagree in writing with them within four weeks after receipt. O³ will point out this consequence in the communicating letter.
+
+d) Differing or supplementing terms of contract of the customer are without obligation for O³ even if such conditions were not expressly contradicted in the individual case. These will only then become part of the contract when they are confirmed by O³ in writing. The same applies to possibly made collateral agreements. Especially to contract out the requirement of the written form must be done in writing.
+
+e) All agreements, that comprise an alteration, supplement or implementation of these terms and conditions, as well as special assurances and agreements are to be laid down in writing. If they are expressed by authorized agents or auxiliary-persons of O³, they will only then be binding when they have been confirmed by O³ in writing.
+
+f) In the case a provision of these standard terms and conditions is or becomes ineffective or impracticable, or if the pertinent software contract contains a gap needing completion, the effectiveness of the remaining provisions as well as the contract in total will not be effected.
+
+
+
+(3)	Conclusion of the Contract
+
+The contract on rendering services of O³ will be concluded with the confirmation of the order by O³, the signature of both parties to the contract under a software-contract or the actual use of the service by the customer.
+
+
+
+(4) 	Terms / right upon default / compensation setoff
+
+a) The quoted prices are Euro-prices and are to be understood as without value added tax. This will be charged separately at the current tax rate.
+
+b) Whenever not differently agreed, the amount invoiced must be credited without discounts to the bank account mentioned in the invoice of O³ at the latest 30 days after receipt of the bill. After this point in time, the customer will be in default without needing another separate reminder.
+
+c) With default or in respite of payment, statutory default interest (BGB) of 5% above the respective basic-rate of interest will be charged.
+
+d) Whereas the customer does not pay an on open claim despite reminder under appointment of a date, O³ can terminate the contractual relationship without observance of a time limit and stop rendering further services.
+
+e) In the case of letter d), O³ will be entitled to demand the owed payment for the contract-realization in full as damages. Saved expenditures of O³ are to be credited.
+
+f) Regardless of the regulation in letter e), O³ is, during the default of the customer, temporarily entitled to retain its contractual duties until the open accounts have been settled (right of retention). The assertion of further claims due to default remains untouched.
+
+g) The setoff with any possible counterclaims of the customer is only permitted with undisputed or with non-appealable claims. The customer may only then retain any counterclaims when they relate to any software contract between the parties.
+
+
+
+(5) 	Liability
+
+a) O³ is generally only liable for intent and gross negligence.
+
+b) In cases of minor negligence, O³ will be exclusively liable for the infringement of essential contractual obligations and generally only for predictable damages and damages typical to this contract. Any possible liability for loss of data is restricted to the typical efforts for recovery that would have happened with regular and appropriate creating of backup copies.
+
+c) O³ is liable without any limitations for damages to life, body, and health.
+
+d) The liability for any and all remaining damages beyond the above provisions is excluded; any possible liability according to the provisions of the Product Liability Act remains untouched.
+
+e) The above limitations in liability are applicable mutatis mutandis for the liability or employees, representatives, and authorized agents of O³.
+
+f) The non-liability in letter d) is not applicable, in as far as compelling legal regulations will be opposed.
+
+
+
+(6) 	Reprimand of Defects
+
+a) The customer has the duty to inspect the software without overdue delay for conformity to the contract or the usability for his purposes after receipt (download as well as delivery of a storage medium). Complaints are to be made without undue delay under exact description of the defect. The notice is regarded as immediate if it arrives at O³ within one week after receipt of the software.
+
+b) The above duty to give notice is applicable mutatis mutandis, whenever a defect occurs at a later time. For the case, the customer gives notice to a defect outside of the one week period in letter a), with the reason that the defect became recognizable or occurred only later, the proof of this incident is be proved by the customer in of a dispute.
+
+c) Whenever the customer does not give notice of a defect without undue delay, the service of O³ will be regarded as approved free of defects.
+
+
+
+(7)	Data Protection
+
+The customer knows that we process his data in machine-readable form and exclusively for purposes for realizing the contract. The customer is at any time entitled to enquire the stored data relating to him and its operational circumstances with us.
+
+
+
+(8)	Applicable Right, Jurisdiction
+
+a) The law of the Federal Republic of Germany will exclusively be applicable.
+
+b) Place of fulfillment for all contractual and statutory mutual claims is the business location of O³ (Schönberg).
+
+c) Provided the customer is a tradesman, a public legal entity or public special funds (öffentlich-rechtliches Sondervermögen), the courts at our business location will have exclusive jurisdiction. This is applicable also to the special institutes of check and bill-law proceedings.
+
+
+
+(9)	Other
+
+(1) All declarations of O³ can be directed to the customer via electronic transmission as far as a contractual or legal requirements do not oppose.
+
+(2) The customer can only transfer his or her rights and obligations from the contract with O³ to a third party only with prior written consent of O³.
+
+(3) In cases of unclarity relating to the translation, with questions of interpretation or in other cases of doubt, the German version of the standard terms and conditions will be alone decisive.
