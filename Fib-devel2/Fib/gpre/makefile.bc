@@ -1,0 +1,77 @@
+
+# ---------------------------------------------------------------------
+# InterBase Installation Directory
+#
+# CHANGE this definition to point to your InterBase installation directory
+# ---------------------------------------------------------------------
+IBASE=		c:\firebird
+
+# ---------------------------------------------------------------------
+# Borland C/C++ Installation Directory
+#
+# CHANGE this definition to point to your compiler's installation directory
+# ---------------------------------------------------------------------
+BCDIR=		c:\borland\bcc55
+
+# ---------------------------------------------------------------------
+# General InterBase Defines for Microsoft Windows 95/NT
+# ---------------------------------------------------------------------
+ISQL=		$(IBASE)\bin\isql
+GPRE=		$(IBASE)\bin\gpre -c -n
+GPRE_M=		$(IBASE)\bin\gpre -c -n -m
+
+# ---------------------------------------------------------------------
+# General Compiler and linker Defines for Borland C/C++ 5.0
+# ---------------------------------------------------------------------
+COMMON_FLAGS=	-c -v -w- -a4 -tWM -DWIN32 $(INCLUDE)
+CFLAGS=		$(COMMON_FLAGS) -tWC
+LIB_CFLAGS=	$(COMMON_FLAGS) -tWCDE
+INCLUDE=	-I$(IBASE)\include -I$(BCDIR)\include
+LFLAGS=		/c /x /ap /Tpe 
+LIBS=		$(IBASE)\lib\fbclient_bor.lib
+CC=		$(BCDIR)\bin\bcc32
+LINK=		$(BCDIR)\bin\ilink32
+IMPLIB=		$(BCDIR)\bin\implib
+COPY=		copy
+RM=		del
+
+
+# ---------------------------------------------------------------------
+# Generic Compilation Rules 
+#
+# Do NOT change anything below this point.
+# ---------------------------------------------------------------------
+.SUFFIXES: .e .c .obj .dll
+
+all:    testblob.dll
+
+.e.c:
+	$(GPRE) $< -u SYSDBA  -password masterkey -m
+
+.c.obj:
+	$(CC) $(LIB_CFLAGS) $<
+    
+
+.obj.dll: 
+# build a small argument file and use it
+	@echo $(BCDIR)\lib\c0d32.obj+ > link.arg
+	@echo $? >> link.arg
+	@echo $@ >> link.arg
+	@echo /x /Tpd >> link.arg 
+	@echo $(LIBS)+ >> link.arg
+	@echo $(BCDIR)\lib\import32.lib+ >> link.arg
+	@echo $(BCDIR)\lib\cw32mt.lib >> link.arg
+	$(LINK) @link.arg
+	@echo -----------------------------------------------------------
+	@echo You need to copy testblob.dll and fbclient.dll to the Blackbox 
+	@echo directory in order for application to work correctly.
+	@echo -----------------------------------------------------------
+
+	$(RM) *.obj
+	$(RM) *.arg
+	$(RM) *.ilc
+	$(RM) *.ild
+	$(RM) *.ilf
+	$(RM) *.ils
+	$(RM) *.tds
+#	$(RM) *.c
