@@ -1,1 +1,0 @@
-c:\borland\bcc55\bin\make -f makefile.bc all
