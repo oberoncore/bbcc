@@ -130,6 +130,8 @@ https://oberoncore.ru/bbcc/subs/xmpp/start
 
 Разнообразные вспомогательные компоненты.
 
+https://oberoncore.ru/bbcc/subs/ypk/start
+
 ## YSon
 
 Парсер/генератор JSON
